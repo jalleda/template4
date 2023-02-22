@@ -1,0 +1,48 @@
+#section4.but:hover{
+background-color:white;
+color: black;
+width: 170px;
+height: 70px;
+
+}
+#section4.but{
+    width: 170px;
+    height: 70px; 
+}
+#section4.p1{
+    opacity: 50%;
+}
+
+
+#section4.div1:hover{
+    border: 2px solid blue;
+}
+
+#section4.mohan{
+    font-family: 'Poppins', sans-serif;
+}
+#section4.i1{
+    background-color: blue;
+}
+#section4.an{
+    
+        animation: 2s anim-lineUp ease-out ;
+      }
+      @keyframes anim-lineUp {
+        0% {
+          opacity: 0;
+          transform: translateY(80%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+      }
+
